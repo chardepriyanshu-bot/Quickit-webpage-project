@@ -61,11 +61,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: right;
-    width: 90px;
+    width: 80px;
     height: 40px;
     background-image:url(shopping-cart.png);
     background-position: center left;
-    background-size: 21px;
+    background-size: 25px;
     background-repeat: no-repeat;
     padding-right: 21px;
     border-radius: 10px;
@@ -79,6 +79,7 @@ header{
         background-color: initial;
 
 }
+
 
 
 
