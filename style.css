@@ -9,7 +9,6 @@ header{
     justify-content: space-around;
     font-family: sans-serif;
     flex-wrap: wrap;
-    background-color:yellow;
     row-gap:5px
 }
 
@@ -79,6 +78,7 @@ header{
         background-color: initial;
 
 }
+
 
 
 
