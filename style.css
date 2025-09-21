@@ -65,7 +65,7 @@ header{
     height: 40px;
     background-image:url(shopping-cart.png);
     background-position: center left;
-    background-size: 30px;
+    background-size: 21px;
     background-repeat: no-repeat;
     padding-right: 21px;
     border-radius: 10px;
@@ -79,6 +79,7 @@ header{
         background-color: initial;
 
 }
+
 
 
 
