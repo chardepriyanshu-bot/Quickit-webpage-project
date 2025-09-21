@@ -7,7 +7,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100px;
     font-family: sans-serif;
     flex-wrap: wrap;
     row-gap: 5px;
@@ -17,8 +16,7 @@ header{
 #header1{
 
     font-size: 40px;
-    
-    font-weight:800;   
+    font-weight:700;   
 }
 
 #header2{
@@ -78,4 +76,5 @@ header{
         border: none;
         font-size: 16px;
         background-color: initial;
+
 }
