@@ -1,6 +1,5 @@
 *{
-    padding: 0;
-    margin: 0;
+    font-family: sans-serif;
 }
 
 header{
@@ -9,15 +8,14 @@ header{
     justify-content: space-around;
     font-family: sans-serif;
     flex-wrap: wrap;
-    row-gap:5px
-    width: 100vw;
+    row-gap: 5px;
 }
 
 
 #header1{
 
     font-size: 40px;
-    font-weight:700;   
+    font-weight:800;   
 }
 
 #header2{
@@ -38,7 +36,7 @@ header{
 }
 
 #header3>input{
-    width: 400px;
+    width: 350px;
     height: 40px;
     border:1px solid #bbb;
     border-radius: 10px;
@@ -61,13 +59,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: right;
-    width: 80px;
+    width: 90px;
     height: 40px;
     background-image:url(shopping-cart.png);
     background-position: center left;
     background-size: 25px;
     background-repeat: no-repeat;
-    padding-right: 5px;
+    padding-right: 21px;
     border-radius: 10px;
     background-color: rgb(255, 255, 249);
     border: 1px solid #bbb;
@@ -77,15 +75,76 @@ header{
         border: none;
         font-size: 16px;
         background-color: initial;
-
+}
+#first{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#second{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#second>img{
+    width: 140px;
+}
+#third{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#third>span{
+    font-size: 19px;
+    font-family: sans-serif;
+    color: rgb(48, 197, 48);
 }
 
+#fourth{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
+#fourth-1{
+    border: 1px solid #bbb;
+    padding: 10px;
+}
 
+#fourth-child-2>button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(167, 202, 167);
+    color: green;
+    border: 0.5px solid rgb(145, 185, 145);
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+}
 
+#fourth-child-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#fourth-child-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-
-
-
-
+#fifth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#fifth>span{
+    font-size: 19px;
+    font-family: sans-serif;
+    color: rgb(48, 197, 48);
+}
