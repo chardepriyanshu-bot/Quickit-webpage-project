@@ -107,6 +107,7 @@ header{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    row-gap: 5px;
 }
 
 #fourth-1{
